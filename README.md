@@ -3,7 +3,7 @@ Create light sources and setup lenses and watch ray tracing happen real time! In
 ![alt text](https://github.com/sk8ermeb/LenseRayTracer/blob/master/Interface.png)
 
 <h2>How To Use This Program</h2>
-First thing to note is all fields in this program are dimensionless as they are relative (except for ange/degrees). If it helps you visualize just pick whatever unit is appropraiate for your experiment. Mathmatically it will all come out sense everything is relative. Also all colors are specified in R-G-B each on a scale from 0 to 255, so "255-0-0" is entirely red.  
+This is written in C# .net universal. So you likely need visual studio and the latest .net to run it. I am using 4.6.1. First thing to note is all fields in this program are dimensionless as they are relative (except for ange/degrees). If it helps you visualize just pick whatever unit is appropraiate for your experiment. Mathmatically it will all come out sense everything is relative. Also all colors are specified in R-G-B each on a scale from 0 to 255, so "255-0-0" is entirely red.  
 <h3>Lense</h3>
 First add the lenses you want. To do this go to Simulation ->Lenses. Positive radius is convex and Negative in concave. There is a horizontal and depth radius for the top and the bottom so that you can do unique things like focus light in only one dimension while diverging light in another.
 The Granulatrity is very important, and the smaller the granularity the more difficult it is to render but the better it looks. this is ray tracing so everything is numerical approximation. 
