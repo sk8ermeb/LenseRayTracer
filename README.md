@@ -25,5 +25,8 @@ The color of all light gets normalized by the brightness, so color 100-100-100 w
 
 If the radius is smaller then the lense size wierd things will start happening. You willl see the rendering not converge. I havn't bothered adjusting for that case so keep that in mind. 
 
+For control if you click an dmove the mouse it will rotate your view about the center. Scrolling with the mouse zooms. And holding shift and clicking and moving will pan. The Pan is a little messed up though so it doesn't go up and down properly!
+
 Enjoy! I am just one guy who had need for a ray tracing program for a project I was doing because I didn't have the money for custom lenses being build so I created this. The code is not pretty nor commenented. But its a free 3d ray tracing program in C#. Feel free to contribute as well if you want.
+
 ![alt text](https://github.com/sk8ermeb/LenseRayTracer/blob/master/two-lights.png)
