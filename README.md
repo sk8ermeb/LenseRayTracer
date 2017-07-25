@@ -26,3 +26,4 @@ The color of all light gets normalized by the brightness, so color 100-100-100 w
 If the radius is smaller then the lense size wierd things will start happening. You willl see the rendering not converge. I havn't bothered adjusting for that case so keep that in mind. 
 
 Enjoy! I am just one guy who had need for a ray tracing program for a project I was doing because I didn't have the money for custom lenses being build so I created this. The code is not pretty nor commenented. But its a free 3d ray tracing program in C#. Feel free to contribute as well if you want.
+![alt text](https://github.com/sk8ermeb/LenseRayTracer/blob/master/two-lights.png)
